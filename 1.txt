@@ -1,3 +1,5 @@
 az group create --name jenkins-node --location westus2  
  
 az vm create --resource-group jenkins-node --name <yourname-node> --image Ubuntu2204 --admin-username "azureuser" --generate-ssh-keys --public-ip-sku Standard
+
+new text by jaya
